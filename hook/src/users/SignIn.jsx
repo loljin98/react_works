@@ -2,7 +2,7 @@ import { useState } from "react";
 import users from "../data/users";
 
 
-const SignIn = () => {
+const SignIn = (onLogin) => {
     const [formData, setFormData] =  useState({
         username : "",
         password : ""
